@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.XR.Interaction.Toolkit;
 
 public class RecordPlayerManager : XRSocketInteractor
@@ -9,6 +10,9 @@ public class RecordPlayerManager : XRSocketInteractor
     [SerializeField] AudioSource audioSource;
     [SerializeField] AudioClip audioClip;
     IXRSelectInteractable selectInteractable;
+
+    Coroutine co;
+
     protected override void Awake()
     {
         base.Awake();
@@ -16,7 +20,7 @@ public class RecordPlayerManager : XRSocketInteractor
     }
     protected new void OnTriggerEnter(Collider other)
      {
-        if (other.CompareTag("Disc"))
+        if (other.CompareTag("PredefinedDisc"))
         {
             audioClip = other.GetComponent<AudioSource>().clip;
 
@@ -27,7 +31,50 @@ public class RecordPlayerManager : XRSocketInteractor
                 print("Played once");
             }
         }
-     }
+        else if (other.CompareTag("Disc"))
+        {
+            SetAudioSource(other.GetComponent<AlbumManager>().paths[0]);
+            
+        }
+    }
+
+    public void SetAudioSource(string _songPath)
+    {
+        co = StartCoroutine(GetAudioClip(_songPath));
+    }
+
+    IEnumerator GetAudioClip(string fileName)
+    {
+        string fullPath = "file://" + FilesManager.FilePath + "/" + fileName;
+        //fullPath = "file:///" + fullPath;
+
+        Debug.Log(fullPath);
+
+        UnityWebRequest webRequest = UnityWebRequestMultimedia.GetAudioClip(
+            fullPath, AudioType.MPEG);
+
+        yield return webRequest.SendWebRequest();
+
+        if (webRequest.isNetworkError)
+        {
+            Debug.Log("Error 1 " + webRequest.error);
+        }
+        else
+        {
+
+            AudioClip clip = DownloadHandlerAudioClip.GetContent(webRequest);
+            clip.name = fileName;
+            if (can)
+            {
+                audioSource.Stop();
+                audioSource.clip = clip;
+                audioSource.Play();
+                print("Played once");
+            }
+        }
+        StopCoroutine(co);
+    }
+
     public override bool CanSelect(IXRSelectInteractable interactable)
     {
         isSelected = interactable.isSelected;

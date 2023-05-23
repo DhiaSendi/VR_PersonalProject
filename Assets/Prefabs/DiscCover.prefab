@@ -154,7 +154,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7174771776252243910}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.0004, z: 0}
   m_LocalScale: {x: 0.95, y: 0.95, z: 0.95}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -224,6 +224,7 @@ GameObject:
   - component: {fileID: 2751414629928416963}
   - component: {fileID: 2751414629928416967}
   - component: {fileID: 2751414629928416964}
+  - component: {fileID: -8218176018296164891}
   m_Layer: 0
   m_Name: DiscCover
   m_TagString: Disc
@@ -288,7 +289,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9b225ef4f19cf441f8d7df84ea0f21ad, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -509,3 +510,22 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!114 &-8218176018296164891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8275310561541905105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e450de84e80c01479298e6fa4fe925b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  songPf: {fileID: 0}
+  albumName: 
+  albumNameTxt: {fileID: 0}
+  songsNbr: 0
+  cover: {fileID: 0}
+  paths: []
+  names: []
