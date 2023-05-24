@@ -4,8 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Disc
-  - PredefinedDisc
+  - menu_icon_local
+  - songHolder
+  - ads
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - UI Collider
+  - Pointer
   - 
   - 
   - 
@@ -42,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Top
+    uniqueID: 3781345425
     locked: 0

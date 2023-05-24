@@ -59,7 +59,7 @@ public class FilesManager : MonoBehaviour
         //CountFilesInDir();
 
     }
-    public void OpenDialog()
+    void OpenDialog()
     {
         //FileBrowser.SetFilters(true, new FileBrowser.Filter("Images", ".jpg", ".png"), new FileBrowser.Filter("Text Files", ".txt", ".pdf"));
         //FileBrowser.SetDefaultFilter(".jpg");
@@ -68,12 +68,7 @@ public class FilesManager : MonoBehaviour
         StartCoroutine(ShowLoadDialogCoroutine());
 
     }
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Escape)) {
-            OpenDialog();
-        }
-    }
+
     public void CountFilesInDir()
     {
         int i = 0;
