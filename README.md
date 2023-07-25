@@ -34,13 +34,13 @@ This project is licensed under the [MIT License](LICENSE). Feel free to use, mod
 I would like to thank Unity for providing the VR pathway and the creators of the Unity assets and Sketchfab models used in this project. Additionally, I extend my gratitude to the developers of the "Runtime File Browser" asset and TagLIB for their invaluable contributions.
 
 ## Screenshots
-![BakedLighmap](https://github.com/DhiaSendi/VR_PersonalProject/assets/43573661/3b84c7f8-d54e-4583-8616-f9a34a1be971)
-![Capture](https://github.com/DhiaSendi/VR_PersonalProject/assets/43573661/72f256c4-22af-471b-8995-04ae6f94f05e)
-![Capture2](https://github.com/DhiaSendi/VR_PersonalProject/assets/43573661/315e0fcf-46cb-4120-96f3-1e0741305fc0)
-![Capture3](https://github.com/DhiaSendi/VR_PersonalProject/assets/43573661/fbebc7f4-d93d-4772-aac0-11c56e9eb576)
-![Capture4](https://github.com/DhiaSendi/VR_PersonalProject/assets/43573661/6ec4868a-9d09-48ad-8263-185e718107ee)
-![Capture5](https://github.com/DhiaSendi/VR_PersonalProject/assets/43573661/bc10ea93-73aa-4d22-abb3-6db0964fa339)
-![Capture6](https://github.com/DhiaSendi/VR_PersonalProject/assets/43573661/ea0f71ad-563f-4a33-ba42-ac94018834b9)
-![UVCharts](https://github.com/DhiaSendi/VR_PersonalProject/assets/43573661/347ab976-e88b-437d-a78c-2a5b8e1dcadb)
+![BakedLighmap](https://drive.usercontent.google.com/download?id=1jJrWGHkUq15AxXf0aENm9eHeGIoU5c6T&export=download&authuser=0&confirm=t&uuid=cdd050f3-a5d0-4e59-8170-f8cd0b68839b&at=AC2mKKQYX486llg0iEbSj43eP9fy:1690304156349)
+![Capture](https://drive.usercontent.google.com/download?id=1n8-WbuNZMXwi9ZWI4jxI8XteR3RKb8Gk&export=download&authuser=0&confirm=t&uuid=e12c58ab-1c80-4074-bfac-0ecbed9e16b0&at=AC2mKKQfbEH5tUB9M1_uAU_JlcAJ:1690304163080)
+![Capture2](https://drive.usercontent.google.com/download?id=1fYV32_2HLYSdw4jHu2YFcqQJfk1D4Z_D&export=download&authuser=0&confirm=t&uuid=557ecc3a-55d9-46a5-a838-975a00e7e397&at=AC2mKKQTE9cFprZrUs8YbpMgB3X-:1690304168343)
+![Capture3](https://drive.usercontent.google.com/download?id=1_-pbMpt_13l4EeQJ46gBJwBEkyPSi5rm&export=download&authuser=0&confirm=t&uuid=3ab263f1-92af-4490-8143-65b248d9d19e&at=AC2mKKTNxpl6qMGzRiWp3tT8iC8s:1690304173768)
+![Capture4](https://drive.usercontent.google.com/download?id=1SODu6MnNXLBWiFg_4Z82swohPSaZEVzM&export=download&authuser=0&confirm=t&uuid=a6429793-1276-420d-b34c-227cbc8738ae&at=AC2mKKSML8I3LhgdQ5cJ3IU6CSys:1690304185741)
+![Capture5](https://drive.usercontent.google.com/download?id=13Xr7z1Hq5US8-6xBA1gF2EzGEFLu9NbY&export=download&authuser=0&confirm=t&uuid=91c0f19e-1add-4411-9917-6cd3f4b44633&at=AC2mKKTiiUN4q6mmtdwe6pbtQSh_:1690304190861)
+![Capture6](https://drive.usercontent.google.com/download?id=1GqwLiWkZ1oCj4NVQvqC7nJPF1GN922IB&export=download&authuser=0&confirm=t&uuid=a9901667-1192-499d-a5b9-04036751a56f&at=AC2mKKSr5AfeBrUe6g8hn5EeZjz9:1690304196410)
+![UVCharts](https://drive.usercontent.google.com/download?id=1UIN0VssmKIRkl7HmtjFBpwa8MM3s9qs_&export=download&authuser=0&confirm=t&uuid=8ef5eee8-8323-45cb-9199-9dc3da19671f&at=AC2mKKQeMQUdsa-pZ3geQEoh8VlL:1690304354831)
 
 Please let me know if you have any further questions or if there's anything else I can assist you with!
